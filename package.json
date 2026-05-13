@@ -1,0 +1,24 @@
+{
+  "name": "tp3",
+  "version": "1.0.0",
+  "description": "grupo13",
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "eslint": "^10.3.0",
+    "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
+    "standard": "^17.1.2"
+  }
+}
