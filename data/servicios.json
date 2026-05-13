@@ -1,0 +1,16 @@
+[
+  { "id": 1, "categoria": "Venta de Consolas", "nombre": "PlayStation 5", "descripcion": "Consola de última generación de Sony", "precio": 850000, "stock": 10, "imagen": "ps5.png" },
+  { "id": 2, "categoria": "Venta de Consolas", "nombre": "Xbox Series X", "descripcion": "Consola de última generación de Microsoft", "precio": 780000, "stock": 8, "imagen": "xbox.png" },
+  { "id": 3, "categoria": "Venta de Consolas", "nombre": "Nintendo Switch OLED", "descripcion": "Consola híbrida de Nintendo con pantalla OLED", "precio": 520000, "stock": 15, "imagen": "switch.png" },
+  { "id": 4, "categoria": "Venta de Consolas", "nombre": "PlayStation 4 Pro", "descripcion": "Consola Sony de generación anterior", "precio": 420000, "stock": 5, "imagen": "ps4.webp" },
+  { "id": 5, "categoria": "Venta de Consolas", "nombre": "Xbox Series S", "descripcion": "Versión compacta de la Xbox Series", "precio": 480000, "stock": 12, "imagen": "xboxs.png" },
+  { "id": 6, "categoria": "Soporte Técnico", "nombre": "Reparación de consola", "descripcion": "Diagnóstico y reparación general de cualquier consola", "precio": 45000, "stock": null, "imagen": "reparacion.png" },
+  { "id": 7, "categoria": "Soporte Técnico", "nombre": "Limpieza de consola", "descripcion": "Limpieza interna profunda de consola", "precio": 25000, "stock": null, "imagen": "limpieza.PNG" },
+  { "id": 8, "categoria": "Soporte Técnico", "nombre": "Cambio de pasta térmica", "descripcion": "Reemplazo de pasta térmica para mejor rendimiento", "precio": 20000, "stock": null, "imagen": "pasta.png" },
+  { "id": 9, "categoria": "Soporte Técnico", "nombre": "Reparación de joystick", "descripcion": "Reparación o reemplazo de joystick dañado", "precio": 30000, "stock": null, "imagen": "joystick.png" },
+  { "id": 10, "categoria": "Soporte Técnico", "nombre": "Actualización de software", "descripcion": "Actualización del sistema operativo de la consola", "precio": 15000, "stock": null, "imagen": "software.png" },
+  { "id": 11, "categoria": "Cotización de Equipos", "nombre": "Cotización PC Gamer básica", "descripcion": "Presupuesto para armar una PC gamer de entrada", "precio": 0, "stock": null, "imagen": "pcbasica.PNG" },
+  { "id": 12, "categoria": "Cotización de Equipos", "nombre": "Cotización PC Gamer media", "descripcion": "Presupuesto para armar una PC gamer de gama media", "precio": 0, "stock": null, "imagen": "pcmedia.PNG" },
+  { "id": 13, "categoria": "Cotización de Equipos", "nombre": "Cotización PC Gamer alta", "descripcion": "Presupuesto para armar una PC gamer de alta gama", "precio": 0, "stock": null, "imagen": "pcalta.PNG" },
+  { "id": 14, "categoria": "Cotización de Equipos", "nombre": "Cotización setup completo", "descripcion": "Presupuesto para monitor, teclado, mouse y auriculares", "precio": 0, "stock": null, "imagen": "setup.webp" }
+]
