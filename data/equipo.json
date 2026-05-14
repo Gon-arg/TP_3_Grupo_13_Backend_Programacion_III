@@ -1,0 +1,7 @@
+[
+  { "id": 1, "nombre": "Gonzalo Argüello", "rol": "Backend Developer", "email": "gonzalo@grupogamer.com", "foto": "equipo1.png" },
+  { "id": 2, "nombre": "Lucas Fernández", "rol": "Frontend Developer", "email": "lucas@grupogamer.com", "foto": "equipo2.png" },
+  { "id": 3, "nombre": "Valentina Torres", "rol": "Diseñadora UI/UX", "email": "valentina@grupogamer.com", "foto": "equipo3.PNG" },
+  { "id": 4, "nombre": "Matías Romero", "rol": "Full Stack Developer", "email": "matias@grupogamer.com", "foto": "equipo4.PNG" },
+  { "id": 5, "nombre": "Camila Suárez", "rol": "QA Tester", "email": "camila@grupogamer.com", "foto": "equipo5.PNG" }
+]
