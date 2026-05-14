@@ -1,8 +1,9 @@
 const fs = require('fs').promises
+const path = require('path')
 
 const getServicios = async (req, res) => {
   try {
-    const data = await fs.readFile('./data/servicios.json', 'utf8')
+    const data = await fs.readFile(path.join(__dirname, '../data/servicios.json'), 'utf8')
     const servicios = JSON.parse(data)
     return res.status(200).json(servicios)
   } catch (error) {
@@ -13,7 +14,7 @@ const getServicios = async (req, res) => {
 
 const getServicioById = async (req, res) => {
   try {
-    const data = await fs.readFile('./data/servicios.json', 'utf8')
+    const data = await fs.readFile(path.join(__dirname, '../data/servicios.json'), 'utf8')
     const servicios = JSON.parse(data)
     const { id } = req.params
     const servicio = servicios.find((s) => s.id === parseInt(id))
