@@ -9,8 +9,8 @@
   { "id": 8, "categoria": "Soporte Técnico", "nombre": "Cambio de pasta térmica", "descripcion": "Reemplazo de pasta térmica para mejor rendimiento", "precio": 20000, "stock": null, "imagen": "pasta.png" },
   { "id": 9, "categoria": "Soporte Técnico", "nombre": "Reparación de joystick", "descripcion": "Reparación o reemplazo de joystick dañado", "precio": 30000, "stock": null, "imagen": "joystick.png" },
   { "id": 10, "categoria": "Soporte Técnico", "nombre": "Actualización de software", "descripcion": "Actualización del sistema operativo de la consola", "precio": 15000, "stock": null, "imagen": "software.png" },
-  { "id": 11, "categoria": "Cotización de Equipos", "nombre": "Cotización PC Gamer básica", "descripcion": "Presupuesto para armar una PC gamer de entrada", "precio": 0, "stock": null, "imagen": "pcbasica.PNG" },
-  { "id": 12, "categoria": "Cotización de Equipos", "nombre": "Cotización PC Gamer media", "descripcion": "Presupuesto para armar una PC gamer de gama media", "precio": 0, "stock": null, "imagen": "pcmedia.PNG" },
-  { "id": 13, "categoria": "Cotización de Equipos", "nombre": "Cotización PC Gamer alta", "descripcion": "Presupuesto para armar una PC gamer de alta gama", "precio": 0, "stock": null, "imagen": "pcalta.PNG" },
+  { "id": 11, "categoria": "Cotización de Equipos", "nombre": "Cotización PC Gamer básica", "descripcion": "Presupuesto para armar una PC gamer de entrada", "precio": 0, "stock": null, "imagen": "pcbasica.png" },
+  { "id": 12, "categoria": "Cotización de Equipos", "nombre": "Cotización PC Gamer media", "descripcion": "Presupuesto para armar una PC gamer de gama media", "precio": 0, "stock": null, "imagen": "pcmedia.png" },
+  { "id": 13, "categoria": "Cotización de Equipos", "nombre": "Cotización PC Gamer alta", "descripcion": "Presupuesto para armar una PC gamer de alta gama", "precio": 0, "stock": null, "imagen": "pcalta.png" },
   { "id": 14, "categoria": "Cotización de Equipos", "nombre": "Cotización setup completo", "descripcion": "Presupuesto para monitor, teclado, mouse y auriculares", "precio": 0, "stock": null, "imagen": "setup.webp" }
 ]
