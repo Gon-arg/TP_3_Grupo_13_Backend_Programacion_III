@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "nombre": "Carlos Méndez",
+        "email": "carlos@gmail.com",
+        "password": "1234",
+        "fechaRegistro": "2024-03-15",
+        "foto": "carlos.jpg",
+        "ultimosPedidos": [
+            { "id": 101, "servicio": "PlayStation 5", "fecha": "2025-04-10", "total": 850000 },
+            { "id": 102, "servicio": "Limpieza de consola", "fecha": "2025-03-22", "total": 25000 },
+            { "id": 103, "servicio": "Reparación de joystick", "fecha": "2025-02-18", "total": 30000 }
+        ]
+    },
+
+    {
+
+        "id": 2,
+        "nombre": "Sofía Ramírez",
+        "email": "sofia@gmail.com",
+        "password": "abcd",
+        "fechaRegistro": "2024-07-20",
+        "foto": "sofia.png",
+        "ultimosPedidos": [
+            { "id": 201, "servicio": "Nintendo Switch OLED", "fecha": "2025-04-01", "total": 520000 },
+            { "id": 202, "servicio": "Cotización PC Gamer media", "fecha": "2025-03-10", "total": 0 },
+            { "id": 203, "servicio": "Cambio de pasta térmica", "fecha": "2025-01-05", "total": 20000 }
+        ]
+
+    }
+]
