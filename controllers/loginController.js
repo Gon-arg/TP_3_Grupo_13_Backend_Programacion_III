@@ -1,9 +1,10 @@
 const fs = require('fs').promises
+const path = require('path')
 
 const postLogin = async (req, res) => {
   try {
     const { usuario, password } = req.body
-    const data = await fs.readFile('./data/usuarios.json', 'utf8')
+    const data = await fs.readFile(path.join(__dirname, '../data/usuarios.json'), 'utf8')
     const usuarios = JSON.parse(data)
     const usuarioEncontrado = usuarios.find(
       (u) => u.email === usuario && u.password === password

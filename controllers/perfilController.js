@@ -1,9 +1,10 @@
 const fs = require('fs').promises
+const path = require('path')
 
 const getPerfil = async (req, res) => {
 
     try {
-        const data = await fs.readFile('./data/usuarios.json', 'utf8')
+        const data = await fs.readFile(path.join(__dirname, '../data/usuarios.json'), 'utf8')
         const usuarios = JSON.parse(data)
         const { id } = req.params
         const usuario = usuarios.find((u) => u.id === parseInt(id))
