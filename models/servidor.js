@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 require('dotenv').config()
+const perfilRoutes = require("../routes/perfil");
 
 class Server {
   constructor () {
@@ -16,20 +17,23 @@ class Server {
 
   rutas () {
   this.app.use('/servicios', require('../routes/servicios'))
+  this.app.use('/perfil', perfilRoutes)
 
-    // manejo de errores
-    this.app.use((req, res, next) => {
-      return res.status(400).json({ msg: 'Error.' })
-    })
-    this.app.use((err, req, res, next) => {
-      console.error(err.stack)
-      return res.status(404).json({ msg: 'Error. Pagina no encontrada' })
-    })
-    this.app.use((err, req, res, next) => {
-      console.error(err.stack)
-      return res.status(500).json({ msg: 'Internal Server Error' })
-    })
-  }
+  // manejo de errores
+  this.app.use((req, res, next) => {
+    return res.status(400).json({ msg: 'Error.' })
+  })
+
+  this.app.use((err, req, res, next) => {
+    console.error(err.stack)
+    return res.status(404).json({ msg: 'Error. Pagina no encontrada' })
+  })
+
+  this.app.use((err, req, res, next) => {
+    console.error(err.stack)
+    return res.status(500).json({ msg: 'Internal Server Error' })
+  })
+}
 
   listen () {
     this.app.listen(this.port, () => {
