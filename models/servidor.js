@@ -10,12 +10,17 @@ class Server {
     this.rutas()
   }
 
-  middleware () {
+middleware () {
     this.app.use(cors())
+    this.app.use(express.json())
+    this.app.use(express.static('public'))
   }
 
-  rutas () {
-  this.app.use('/servicios', require('../routes/servicios'))
+rutas () {
+    this.app.use('/servicios', require('../routes/servicios'))
+    this.app.use('/equipo', require('../routes/equipo'))
+    this.app.use('/perfil', require('../routes/perfil'))
+    this.app.use('/login', require('../routes/login'))
 
     // manejo de errores
     this.app.use((req, res, next) => {
